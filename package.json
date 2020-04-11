@@ -1,0 +1,55 @@
+{
+  "name": "react-native-simple-i18n",
+  "version": "1.0.0",
+  "description": "Small i18n lib for react-native based on react-native-localize and i18n-js",
+  "keywords": [
+    "i18n",
+    "intl",
+    "internationalization",
+    "translate",
+    "react-native",
+    "react",
+    "typescript"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanpalma/react-native-simple-i18n.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanpalma/react-native-simple-i18n/issues"
+  },
+  "homepage": "https://github.com/jonathanpalma/react-native-simple-i18n#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-url": "^4.0.2",
+    "@types/i18n-js": "^3.0.2",
+    "@types/lodash.memoize": "^4.1.6",
+    "@types/react": "^16.9.34",
+    "i18n-js": "^3.5.1",
+    "lodash.memoize": "^4.1.2",
+    "react": "^16.13.1",
+    "react-native-localize": "^1.3.4",
+    "rollup": "^2.3.2",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.59.0",
+    "react-native-localize": ">=1.3.4"
+  }
+}
