@@ -15,7 +15,7 @@
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
-This library was inspired by [How to use React Native Localize in React Native apps](blog-article) (written by [Aman Mittal](aman-twitter)) so please go and leave this guy some 👏.
+This library was inspired by [How to use React Native Localize in React Native apps][blog-article] (written by [Aman Mittal][aman-twitter]) so please go and leave this guy some 👏.
 
 Disclaimer: This library only supports translations, it does NOT support cultural settings (currency, dates, times, etc)
 
@@ -23,9 +23,9 @@ Disclaimer: This library only supports translations, it does NOT support cultura
 
 ### Peer Dependencies
 
-- react: [16.8.0](react-16.8.0)+
-- react-native: [0.59.0](react-native-0.59)+
-- react-native-localize: [1.3.4](react-native-localize-1.3.4)+
+- react: [16.8.0][react-16.8.0]+
+- react-native: [0.59.0][react-native-0.59]+
+- react-native-localize: [1.3.4][react-native-localize-1.3.4]+
 
 ### Installation
 
