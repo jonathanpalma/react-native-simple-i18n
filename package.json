@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-i18n",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Small i18n lib for react-native based on react-native-localize and i18n-js",
   "keywords": [
     "i18n",
