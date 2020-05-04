@@ -20,9 +20,12 @@
     "build": "rollup -c",
     "cz": "git-cz",
     "format:all": "prettier --write .",
-    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "precommit": "lint-staged && npm run test",
     "prepare": "npm run build",
+    "prettier": "prettier \"src/**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx)\"",
+    "release": "standard-version",
+    "start": "rollup -c -w",
     "test": "echo \"No test specified yet\"",
     "validate": "npm run lint && npm run prettier -- --list-different"
   },
