@@ -39,7 +39,7 @@ npm install -S react-native-simple-i18n
 
 ```diff
 import React from 'react';
-+ import {I18nProvider, useI18n} from 'react-native-simple-i18n';
++ import { I18nProvider, useI18nProvider } from 'react-native-simple-i18n';
 import ReduxProvider from 'src/components/ReduxProvider';
 import Main from 'src/components/Main';
 
@@ -50,7 +50,7 @@ import Main from 'src/components/Main';
 + };
 
 function App() {
-+ const i18n = useI18n(messages);
++ const i18n = useI18nProvider(messages);
   return (
     <>
       <ReduxProvider>
@@ -80,10 +80,10 @@ export default App;
 ```diff
 import React from 'react';
 import { Text, View } from 'react-native';
-+ import {useI18nContext} from 'react-native-simple-i18n';
++ import { useI18n } from 'react-native-simple-i18n';
 
 function Main() {
-+ const {translate} = useI18nContext();
++ const { translate } = useI18n();
   return (
     <View>
       <Text>
