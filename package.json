@@ -33,7 +33,7 @@
     "type": "git",
     "url": "git+https://github.com/jonathanpalma/react-native-simple-i18n.git"
   },
-  "author": "",
+  "author": "Jonathan Palma <jonathanpalma.me@gmail.com> (http://jonathanpalma.me)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jonathanpalma/react-native-simple-i18n/issues"
